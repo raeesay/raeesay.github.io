@@ -1,10 +1,24 @@
 [
   {
-    "date": "2026-07-15",
-    "text": "Launched this website!"
-  },
-  {
     "date": "2026-07-01",
     "text": "I will be attending ESSAI 2026 in Vienna — feel free to reach out if you'd like to meet up!"
+  },
+  {
+    "date": "2026-06-01",
+    "text": "I will be attending HAICON 2026 with a poster on 'An AI System for Robust Plain Language Translation of Clinical Trials'."
+  },
+  {
+    "date": "2026-03-27",
+    "text": "I gave a talk on BioCroissant and how we can improve data standards for health AI at the AI4G Webinar series.",
+    "linkText": "AI4G Webinar",
+    "url": "https://aiforgood.itu.int/speaker/raeesa-yousaf/"
+  },
+  {
+    "date": "2025-09-01",
+    "text": "I have joined Sebastian Lobentanzer's group at Helmholtz Munich as a doctoral researcher!"
+  },
+  {
+    "date": "2025-06-06",
+    "text": "My paper based on my master's thesis 'Accessible Language Simplification: Large Language Models for Generating Easy German' has been accepted at KI 2025! I will be attending the conference in Potsdam, Germany this September."
   }
 ]

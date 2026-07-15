@@ -119,6 +119,9 @@ ul.news-list li {
   display: block;
   margin-bottom: 2px;
 }
+.news-list a {
+  color: var(--accent);
+}
 .icon-links {
   display: flex;
   gap: 16px;

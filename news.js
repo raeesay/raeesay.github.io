@@ -12,7 +12,19 @@ function renderItem(item) {
   dateSpan.textContent = formatDate(item.date);
 
   const textDiv = document.createElement('div');
-  textDiv.textContent = item.text;
+  if (item.url && item.linkText && item.text.includes(item.linkText)) {
+    const [before, after] = item.text.split(item.linkText);
+    textDiv.appendChild(document.createTextNode(before));
+    const a = document.createElement('a');
+    a.href = item.url;
+    a.target = '_blank';
+    a.rel = 'noopener';
+    a.textContent = item.linkText;
+    textDiv.appendChild(a);
+    textDiv.appendChild(document.createTextNode(after));
+  } else {
+    textDiv.textContent = item.text;
+  }
 
   li.appendChild(dateSpan);
   li.appendChild(textDiv);
