@@ -1,11 +1,15 @@
 [
   {
     "date": "2026-07-01",
-    "text": "I will be attending ESSAI 2026 in Vienna — feel free to reach out if you'd like to meet up!"
+    "text": "I will be attending ESSAI 2026 in Vienna — feel free to reach out if you'd like to meet up!",
+    "linkText": "ESSAI 2026",
+    "url": "https://essai2026.eu/"
   },
   {
     "date": "2026-06-01",
-    "text": "I will be attending HAICON 2026 with a poster on 'An AI System for Robust Plain Language Translation of Clinical Trials'."
+    "text": "I will be attending HAICON 2026 with a poster on 'An AI System for Robust Plain Language Translation of Clinical Trials'.",
+    "linkText": "HAICON 2026",
+    "url": "https://haicon.cc/"
   },
   {
     "date": "2026-03-27",
